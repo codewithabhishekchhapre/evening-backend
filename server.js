@@ -1,7 +1,6 @@
 const { createServer } = require('http');
 const { parse } = require('url');
 
-
 const server = createServer((req, res) => {
      const url = parse(req.url, true);
      const method = req.method;
